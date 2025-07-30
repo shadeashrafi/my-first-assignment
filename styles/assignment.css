@@ -7,19 +7,89 @@
   font-style: normal;
 }
 
-/* shared style */
+/* shared style */ 
+
+.secondary-bg{
+    background-color: rgba(78, 71, 255, 0.1);
+}
 .text-primary{
     color: #4E47FF;
 }
 
 .btn-primary{
     background-color: #4E47FF;
+
     font-weight: bold;
     font-size: 16px;
     border: none;
     padding: 12px 36px;
     border-radius: 5px;
     color: #FFFFFF;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+     margin: 0 auto;
+}
+/* user styles */
+.user{
+    border-radius: 10px;
+    padding: 50px 142px;
+    text-align: center;
+    margin-top: 116px;
+    
+}
+.user-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #24322C;
+}
+
+.item-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+  
+/* action styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+.action-content{
+    max-width: 517px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-profile-pic{
+    width: 403px;
+
+}
+
+.action-description{
+    font-size: 24px;
+    color: #252432;
+}
+
+/* header */
+.header{
+    background-image: url('../images/Hero-bg.png');
+    background-position: center;
+   
+    
 }
 
 /* Nav styles */
@@ -38,4 +108,25 @@ nav{
 nav ul li{
     list-style: none;
     align-items: center;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    text-align: center;
+    
+}
+.banner-content{
+    max-width: 905px;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+   
+    
+    
+}
 }
