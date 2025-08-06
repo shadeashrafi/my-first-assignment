@@ -147,3 +147,44 @@ nav ul li{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     
 }
+/* touch styles */
+.touch{
+    padding: 200px 150px;
+    display: flex;
+    gap: 100px;
+    margin-top: 92px;
+
+}
+.section-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.title-column{
+    width: 50%;
+}
+section input[type="email"], section input[type="text"], section textarea{
+    height: 70px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    border: none;
+}
+/* footer styles */
+.footer{
+    padding: 104px 435px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+.section-title{
+    font-size: 100px;
+    color: #4E47FF;
+      
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+}
