@@ -17,7 +17,7 @@
 }
 
 .btn-primary{
-    background-color: #4E47FF;
+    background-color: #A647FF;
 
     font-weight: bold;
     font-size: 16px;
@@ -180,11 +180,20 @@ section input[type="email"], section input[type="text"], section textarea{
 }
 .section-title{
     font-size: 100px;
-    color: #4E47FF;
-      
+    color: #4E47FF;    
 }
 
-.footer-items{
+.section-subtitle{
+    color: #8987A1;
+}
+footer ul{
     display: flex;
-    justify-content: space-around;
+}
+footer ul li {
+    list-style: none;
+    margin: auto;
+}
+footer li a {
+    text-decoration: none;
+    color: #8987A1;
 }
